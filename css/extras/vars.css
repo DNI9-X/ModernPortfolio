@@ -1,0 +1,13 @@
+:root {
+  --primaryColor: #2c56e0;
+  --secondaryColor: #4fa6ee;
+  --titleColor: #03021a;
+  --textColor: #777777;
+  --borderColor: #201f1f17;
+  --gradientColor: linear-gradient(90deg, #2c56e0 0%, #4fa6ee 100%);
+  --shadowColor: 0px 10px 30px rgba(118, 85, 225, 0.3);
+  --boxShadow: 0px 10px 30px rgba(57, 56, 61, 0.2);
+  --colorBoxShadow: 7px 23px 151px rgba(68, 140, 234, 0.83);
+  --josef: "JosefinSans", cursive;
+  --lobster: "Lobster", cursive;
+}

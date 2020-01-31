@@ -1,0 +1,177 @@
+@import url(./fonts.css);
+@import url(./extras/globals.css);
+@import url(./extras/vars.css);
+
+/* Navigation Styles */
+
+.mainLogo {
+  width: 6rem;
+}
+
+.header_area .main_menu .navbar .navbar-brand {
+  padding: 0 2rem 0 5rem;
+  font-weight: 600;
+  font-family: var(--josef);
+}
+.header_area .main_menu .navbar {
+  padding: 1.2rem 3rem;
+}
+
+.header_area .main_menu .nav-item .nav-link {
+  font: normal 600 15px/2px var(--josef);
+  text-transform: uppercase;
+  padding: 1.7rem;
+  color: var(--titleColor);
+}
+
+.header_area .main_menu .active a {
+  background: var(--gradientColor);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.header_area .main_menu a:hover {
+  background: var(--gradientColor);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* main content styles*/
+
+/*
+.site_main .site_banner {
+  background: url();
+  background-position: 0% 50%;
+  background-repeat: no-repeat;
+}
+*/
+.myName {
+  background: var(--gradientColor);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.site_main .site_banner .site-title h3 {
+  font-size: 2rem;
+  padding-top: 15%;
+  font-weight: 500;
+}
+
+.site_main .site_banner .site-title h3::after {
+  content: "";
+  height: 2px;
+  width: 18vw;
+  background: var(--titleColor);
+  display: inline-block;
+  margin-left: 5%;
+  transform: translateY(-5px);
+}
+
+.site_main .site_banner .site-title h1 {
+  font-size: 5rem;
+}
+.site_main .site_banner .site-title h4 {
+  font-size: 1.2rem;
+}
+
+.site_main .site_banner .main-banner > img {
+  padding: 7rem 3rem;
+  width: 90rem;
+}
+.CTOs {
+  padding-top: 2rem;
+}
+
+/* about section styles */
+
+.site_main .about_area {
+  padding: 8rem 5rem;
+}
+.site_main .about_area .about_title h2 > span {
+  display: block;
+  font: normal bold 35px/60px var(--josef);
+  letter-spacing: 3px;
+  color: var(--titleColor);
+}
+
+/*skill area*/
+
+/* Project Area styles*/
+
+.site_main .project_area {
+  padding: 5rem 2rem;
+}
+.site_main .project_area .project_title {
+  padding: 0 15rem;
+}
+.site_main .project_area .project_title h1 {
+  font-size: 35px;
+}
+.site_main > .project_area .projects {
+  background: rgba(227, 227, 255, 0.349);
+  padding: 1rem 0;
+  width: 16rem;
+  margin: 5rem 0.7rem;
+  transition: box-shadow 0.5s ease;
+  border-radius: 15px;
+}
+
+.site_main > .project_area .projects:hover {
+  box-shadow: var(--boxShadow);
+  background: #e7e7ffc2;
+}
+
+.site_main > .project_area .projects img {
+  width: 5rem;
+}
+
+.site_main > .project_area .projects h5 {
+  color: var(--titleColor);
+  font: normal 600 15px/20px var(--josef);
+}
+
+/* footer area  */
+
+footer .footer_area {
+  padding: 2rem 0;
+  background: #e7e7ffc2;
+}
+
+footer .footer_area .site_logo img {
+  width: 8rem;
+}
+
+footer .footer_area .social h5 {
+  font: normal 500 20px/30px var(--josef);
+}
+
+footer .footer_area .social a > i {
+  font-size: 22px;
+  padding: 1rem;
+  color: #c8c8ffc2;
+  text-decoration: none !important;
+}
+
+footer .footer_area .social a > i:hover,
+:active,
+:focus {
+  color: var(--gradientColor);
+  cursor: pointer;
+  text-decoration: none !important;
+  transition: color 0.7s ease;
+}
+
+footer .footer_area .copyrights {
+  padding-top: 2rem;
+}
+footer .footer_area .copyrights a {
+  text-decoration: none;
+  color: var(--titleColor);
+  font-weight: bold;
+}
+
+footer .footer_area .copyrights i {
+  color: var(--primaryColor);
+}

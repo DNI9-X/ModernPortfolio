@@ -1,0 +1,60 @@
+/* global classes */
+
+html,
+body {
+  margin: 0;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  background-color: #eeeeff;
+  scroll-behavior: smooth;
+}
+
+.title-text {
+  font: normal bold 50px/72px var(--josef);
+}
+
+.button {
+  padding: 0.8rem 2.2rem;
+  font: normal 600 16px/20px var(--josef);
+  position: relative;
+  border: none;
+  border-radius: 4px;
+  font-weight: 500;
+}
+
+.button.primary-button {
+  background: var(--gradientColor);
+  background-clip: padding-box;
+  color: whitesmoke;
+  transition: background 0.6s ease;
+  /* box-shadow: var(--colorBoxShadow); */
+}
+
+.button.primary-button:hover {
+  /* background: #eeeeff; */
+  background-clip: padding-box;
+  /* color: var(--titleColor); */
+  box-shadow: var(--colorBoxShadow);
+  transition: box-shadow 0.7s ease;
+  /* border: 2px solid var(--secondaryColor); */
+}
+
+.button.secondary-button {
+  background: #f3f3ff;
+  background-clip: padding-box;
+  transition: background 0.6s ease;
+  /* border: 2px solid var(--secondaryColor); */
+}
+.button.secondary-button:hover {
+  /* background: var(--gradientColor); */
+  color: var(--titleColor);
+  box-shadow: var(--boxShadow);
+  border: 0px solid var(--secondaryColor);
+  transition: box-shadow 0.7s ease;
+}
+
+p.para {
+  color: var(--titleColor);
+  font: normal 500 16px/25px var(--josef);
+}
