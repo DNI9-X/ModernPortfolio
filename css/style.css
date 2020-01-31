@@ -185,6 +185,9 @@ footer .footer_area .copyrights i {
     padding: 0.8rem 1.5rem;
   }
   /* ends here */
+  .header_area .main_menu .navbar {
+    padding: 1.2rem 1rem;
+  }
   .CTOs {
     padding-top: 3rem;
   }
@@ -203,7 +206,7 @@ footer .footer_area .copyrights i {
     font: normal 30px var(--josef);
   }
   .navbar-nav {
-    padding-left: 174px;
+    padding-left: 200px;
   }
   /* about area*/
 
