@@ -1,6 +1,7 @@
 @import url(./fonts.css);
 @import url(./extras/globals.css);
 @import url(./extras/vars.css);
+/* @import url(./extras/responsive.css); */
 
 /* Navigation Styles */
 
@@ -174,4 +175,62 @@ footer .footer_area .copyrights a {
 
 footer .footer_area .copyrights i {
   color: var(--primaryColor);
+}
+
+/* Some queries to make it responsive for mobile*/
+
+@media only screen and (max-width: 512px) {
+  /* Globals modify */
+  .button {
+    padding: 0.8rem 1.5rem;
+  }
+  /* ends here */
+  .CTOs {
+    padding-top: 3rem;
+  }
+  .site_main .site_banner .site-title h3 {
+    font-size: 1.5rem;
+    padding-top: 10%;
+    padding-left: 0.2rem;
+  }
+  .site_main .site_banner .site-title h1 {
+    font-size: 4rem;
+  }
+  .site_main .site_banner .site-title h4 {
+    font-size: 0.8rem;
+  }
+  .title-text {
+    font: normal 30px var(--josef);
+  }
+  .navbar-nav {
+    padding-left: 174px;
+  }
+  /* about area*/
+
+  .site_main .about_area {
+    padding: 2rem 1rem;
+  }
+  .pt-5,
+  .py-5 {
+    padding-top: 1rem !important;
+  }
+  .site_main .about_area .about_title h2 > span {
+    font: normal bold 23px/40px var(--josef);
+  }
+  .w-75 {
+    width: 100% !important;
+    text-align: justify;
+  }
+  .site_main .project_area {
+    padding-top: 5rem;
+  }
+  .site_main .project_area .project_title {
+    padding: 2rem 0;
+  }
+  .site_main .project_area .project_title h1 {
+    font: normal 500 30px/80px var(--josef);
+  }
+  .site_main > .project_area .projects {
+    margin: 1rem 0rem;
+  }
 }

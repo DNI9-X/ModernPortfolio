@@ -1,0 +1,11 @@
+@media only screen and (max-width: 512px) {
+  .site_main .site_banner .site-title h3 {
+    font-size: 1.5rem;
+  }
+  .site_main .site_banner .site-title h1 {
+    font-size: 1rem;
+  }
+  .site_main .site_banner .site-title h4 {
+    font-size: 1rem;
+  }
+}
